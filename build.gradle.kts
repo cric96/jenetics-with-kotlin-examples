@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
     implementation("io.jenetics", "jenetics", jeneticsVersion)
+    implementation("io.jenetics", "jenetics.prog", jeneticsVersion)
     testImplementation(kotlin("test"))
 }
 

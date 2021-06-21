@@ -11,14 +11,7 @@ import kotlin.math.cos
 import kotlin.math.hypot
 import kotlin.math.sin
 
-/*
-val p1 = p.get(i)
-val p2 = p.get((i + 1) % p.size())
-hypot(p1[0] - p2[0], p1[1] - p2[1])
- */
-
 /** example taken from https://jenetics.io/manual/manual-6.2.0.pdf page 124, traveling problem */
-
 class TravelingSalesman(val points : ISeq<DoubleArray>) : Problem<ISeq<DoubleArray>, EnumGene<DoubleArray>, Double> {
     override fun fitness(): Function<ISeq<DoubleArray>, Double> {
         return Function<ISeq<DoubleArray>, Double> {
