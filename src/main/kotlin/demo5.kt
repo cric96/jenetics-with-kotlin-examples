@@ -101,6 +101,5 @@ fun main() {
 
     println(statistics) //unsafe..
     val network = networkFrom(result.genotype())
-    return dataSet.forEach() { (key, value) -> println(network(key.toList().toTypedArray())[0]) }
-    println("Result = $result")
+    dataSet.forEach() { (key, value) -> println(network(key.toList().toTypedArray())[0]) }
 }
