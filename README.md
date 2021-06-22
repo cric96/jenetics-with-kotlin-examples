@@ -1,5 +1,5 @@
-# jenetics-with-kotlin-examples
-This repository contains some examples of Jenetics library used with Kotlin.
+# Jenetics with Kotlin
+This repository contains some examples of [Jenetics](https://jenetics.io/) library used with Kotlin.
 
 It mainly reproduce the example explained [here](https://jenetics.io/manual/manual-6.2.0.pdf).
 
